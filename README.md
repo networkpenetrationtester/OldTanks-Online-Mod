@@ -12,7 +12,10 @@
 	
 5.	In the NNBounce-node repo config.json, set the BasePath field to the root of bjuonday's otgithub you downloaded.
 	"BasePath": "PATH/TO/bjuonday/otgithub"
+6. Open NNBounce folder.
+   
+7. Run npm install (install types?)
 
-6. Run npm install (install types?)
-7. Run node index.ts
-8. Start OldTanks!
+8. Run node index.ts
+
+9. Start OldTanks! Watch the resources as they load from your disk.
