@@ -1,3 +1,5 @@
+Hello! This guide shows you how you can get 2012-2013 textures in OldTanks!
+
 1.	Copy the OldTanks Online folder from here into C:\Games.
 	It contains a modified StandaloneLoader.swf (by bjuonday) which can be manually configured to request Preloader.swf from any URL. You can change this in the META-INF/application.xml.
 	
