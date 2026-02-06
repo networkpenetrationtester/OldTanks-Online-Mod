@@ -1,4 +1,6 @@
+node --run build
 taskkill /IM OTOnline.exe /F
-start node.exe "E:\Projects\source\repos\NodeJS\NNBounce-node\index.ts"
-"C:\Games\OldTanks Online\OTOnline.exe"
+taskkill /IM node.exe /F
+node --run start
+start /b "C:\Games\OldTanks Online\OTOnline.exe"
 exit
