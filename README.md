@@ -10,7 +10,7 @@ You can change this in the included, modified `META-INF/AIR/application.xml` (de
 Download & extract my [NNBounce-node](https://github.com/networkpenetrationtester/NNBounce-node) Resource Proxy repo.
 It's a TypeScript HTTP proxy, which can either load resources from your disk, or from a URL you specify in `config.json`.
 
-Copy the `www` folder, `config.json`, and `play.bat` from here into the NNBounce-node repo folder.
+Copy the `www` folder, `config.json`, `play.bat`, and `quit.bat` from here into the NNBounce-node repo folder.
 You need those modified game files to load textures, and the modified game won't launch without the NNBounce server.
 
 Download & extract [bjuonday's otgithub mod](https://github.com/bjuonday/otgithub).
