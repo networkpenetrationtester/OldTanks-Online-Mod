@@ -1,14 +1,16 @@
-# Make sure processess are closed.
+:: Make sure processess are closed.
 taskkill /IM node.exe /F
 taskkill /IM OTOnline.exe /F
+cls
 
-# Setup everything.
+:: Setup everything.
 node --run build
 node --run start
+cls
 
-# Start the game!
-# It hangs the command prompt, which displays the server output.
-"C:\Games\OldTanks Online\OTOnline.exe"
+:: Start the game!
+:: It hangs the command prompt, which displays the server output.
+"C:\Games\OldTanks Online\OTOnline.exe" && cls
 
-# This line is executed when OTO is closed.
+:: This line is executed when OTO is closed.
 taskkill /IM node.exe /F
