@@ -14,7 +14,7 @@ Hello! This guide shows you how you can get 2012-2013 textures in OldTanks!
 	
 5.	In the NNBounce-node repo `config.json`, set the `HttpServer.OverrideCachePath` field to the path of bjuonday's otgithub folder you downloaded.
 
-	`"BasePath": "C:/Users/<you>/Downloads/otgithub"`
+	`"OverrideCachePath": "C:/Users/<you>/Downloads/otgithub"`
 
 6. Open NNBounce project.
    
@@ -23,6 +23,7 @@ Hello! This guide shows you how you can get 2012-2013 textures in OldTanks!
 8. Run `node index.ts`
 
 9. Run `play.bat`! Watch the resources as they load from your disk.
+
 
 
 
