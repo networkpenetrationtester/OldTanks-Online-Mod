@@ -2,7 +2,7 @@ Hello! This guide shows you how you can get 2012-2013 textures in OldTanks!
 
 Copy the OldTanks Online folder from here into `C:\Games`.
 It contains a modified `StandaloneLoader.swf` (by bjuonday) which can be manually configured to request `Preloader.swf` from any URL.
-You can change this in the `META-INF/application.xml` (default is `https://resources.oldtanksonline.ru/Preloader.swf`).
+You can change this in the `META-INF/AIR/application.xml` (default is `https://resources.oldtanksonline.ru/Preloader.swf`).
 
 Download & extract my [NNBounce-node](https://github.com/networkpenetrationtester/NNBounce-node) Resource Proxy repo.
 It's a TypeScript HTTP proxy, which can either load resources from your disk, or from a URL you specify in `config.json`.
@@ -24,4 +24,5 @@ Run `node --run build`
 Run `play.bat`! 
 
 Watch the resources as they load from your disk.
+
 
