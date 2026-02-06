@@ -13,4 +13,7 @@ cls
 "C:\Games\OldTanks Online\OTOnline.exe"
 
 :: This line is executed when OTO is closed.
+:: Make sure processess are closed.
 taskkill /IM node.exe /F
+taskkill /IM OTOnline.exe /F
+cls
