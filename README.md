@@ -20,15 +20,4 @@ In the NNBounce-node-master folder, rename `config.example.json` to `config.json
 
 `"OverrideCachePath": "C:\Users\<you>\Downloads\otgithub-app"`
 
-Open NNBounce project.
-
-Run `node --run build`
-
-Run `play.bat`! 
-
-Watch the resources as they load from your disk.
-
-
-
-
-
+You're all done! Now simply run `play.bat`, and watch the resources as they load from your disk.
