@@ -15,7 +15,7 @@ This repo is a fork of tdlcompiler's otgithub, except with modern textures.
 	
 In the NNBounce-node-master folder, rename `config.example.json` to `config.json`, set the `HttpServer.OverrideCachePath` field to the path of bjuonday's otgithub folder you downloaded.
 
-`"OverrideCachePath": "C:/Users/<you>/Downloads/otgithub"`
+`"OverrideCachePath": "C:\Users\<you>\Downloads\otgithub-app"`
 
 Open NNBounce project.
 
@@ -24,5 +24,6 @@ Run `node --run build`
 Run `play.bat`! 
 
 Watch the resources as they load from your disk.
+
 
 
