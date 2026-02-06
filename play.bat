@@ -1,6 +1,6 @@
-node --run build
-taskkill /IM OTOnline.exe /F
 taskkill /IM node.exe /F
+taskkill /IM OTOnline.exe /F
+node --run build
 node --run start
-start /b "C:\Games\OldTanks Online\OTOnline.exe"
+"C:\Games\OldTanks Online\OTOnline.exe"
 exit
