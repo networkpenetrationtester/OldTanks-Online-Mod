@@ -1,0 +1,26 @@
+{
+	"Logger": {
+		"Requests": true,
+		"Verbose": true,
+		"LogFile": false
+	},
+	"HttpServer": {
+		"OverrideCachePath": null,
+		"DirBrowser": false,
+		"StaticFiles": [
+			"/Prelauncher.swf",
+			"/Loader.swf",
+			"/socket_test.cfg"
+    ],
+		"LocalHostName": "localhost",
+		"LocalPort": 8080,
+		"Protocol": "http",
+		"StoreCache": false,
+		"ServeCache": true
+	},
+	"Bouncer": {
+		"RemoteHostname": "resources.oldtanksonline.ru",
+		"RemotePort": 443,
+		"Protocol": "https"
+	}
+}
