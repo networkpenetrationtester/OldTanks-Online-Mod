@@ -12,7 +12,7 @@ Hello! This guide shows you how you can get 2012-2013 textures in OldTanks!
 4.	Download & extract otgithub-app (LATEST TAG RELEASE) titled "Important". (https://github.com/bjuonday/otgithub/archive/refs/tags/app.zip)
 	This is where you can find 2013 textures in the same folder structure as OldTanks.
 	
-5.	In the NNBounce-node repo `config.json`, set the BasePath field to the path of bjuonday's otgithub folder you downloaded.
+5.	In the NNBounce-node repo `config.json`, set the `HttpServer.OverrideCachePath` field to the path of bjuonday's otgithub folder you downloaded.
 
 	`"BasePath": "C:/Users/<you>/Downloads/otgithub"`
 
@@ -23,5 +23,6 @@ Hello! This guide shows you how you can get 2012-2013 textures in OldTanks!
 8. Run `node index.ts`
 
 9. Run `play.bat`! Watch the resources as they load from your disk.
+
 
 
