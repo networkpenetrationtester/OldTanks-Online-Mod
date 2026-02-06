@@ -13,12 +13,13 @@ It's a TypeScript HTTP proxy, which can either load resources from your disk, or
 Copy the `www` folder, `config.json`, and `play.bat` from here into the NNBounce-node repo folder.
 You need those modified game files to load textures, and the modified game won't launch without the NNBounce server.
 
-Download & extract [otgithub-app](https://github.com/bjuonday/otgithub/archive/refs/tags/app.zip) (LATEST TAG RELEASE TITLED "Important").
+Download & extract [bjuonday's otgithub mod](https://github.com/bjuonday/otgithub).
 This repo is a fork of tdlcompiler's otgithub, except with modern textures.
+You may delete the `resourcesmodern` folder, as well as all other files, as we only need the `resources` folder.
 	
 In the NNBounce-node-master folder, open `config.json`.
 Set the `HttpServer.OverrideCachePath` field to the path of bjuonday's otgithub folder you downloaded (Double backslashes).
 
-`"OverrideCachePath": "C:\\Users\\<you>\\Downloads\\otgithub-app"`
+`"OverrideCachePath": "C:\\Users\\<you>\\Downloads\\otgithub-main"`
 
 You're all done! Now simply run `play.bat`, and watch the resources as they load from your disk.
