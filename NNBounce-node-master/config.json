@@ -5,7 +5,7 @@
 		"LogFile": false
 	},
 	"HttpServer": {
-		"OverrideCachePath": null,
+		"OverrideCachePath": "C:\\Users\\<Your Computer Username Here>\\Downloads\\otgithub-main",
 		"DirBrowser": false,
 		"StaticFiles": [
 			"/Prelauncher.swf",
