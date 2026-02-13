@@ -5,14 +5,14 @@
 		"LogFile": false
 	},
 	"HttpServer": {
-		"OverrideCachePath": "C:\\Users\\<Your Computer Username Here>\\Downloads\\otgithub-main",
+		"OverrideCachePath": null,
 		"DirBrowser": false,
 		"StaticFiles": [
 			"/Prelauncher.swf",
 			"/Loader.swf",
 			"/socket_test.cfg"
     ],
-		"LocalHostName": "localhost",
+		"LocalHostName": null,
 		"LocalPort": 8080,
 		"Protocol": "http",
 		"StoreCache": false,
