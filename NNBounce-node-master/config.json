@@ -11,8 +11,8 @@
 			"/Prelauncher.swf",
 			"/Loader.swf",
 			"/socket_test.cfg"
-    ],
-		"LocalHostName": null,
+		],
+		"LocalHostName": "localhost",
 		"LocalPort": 8080,
 		"Protocol": "http",
 		"StoreCache": false,
