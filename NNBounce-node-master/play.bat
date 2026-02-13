@@ -4,8 +4,8 @@ taskkill /IM OTOnline.exe /F
 cls
 
 :: Setup everything.
-node.exe --run build
-node.exe --run start
+node --run build
+node --run start
 cls
 
 :: Start the game!
@@ -15,5 +15,4 @@ cls
 :: This line is executed when OTO is closed.
 :: Make sure processess are closed.
 taskkill /IM node.exe /F
-taskkill /IM OTOnline.exe /F
 cls
