@@ -5,20 +5,22 @@
 		"LogFile": false
 	},
 	"HttpServer": {
-		"OverrideCachePath": null,
-		"DirBrowser": false,
 		"StaticFiles": [
 			"/Prelauncher.swf",
 			"/Loader.swf",
-			"/socket_test.cfg"
-    ],
-		"LocalHostName": null,
+			"/socket_test.cfg",
+			"/favicon.ico"
+		],
+		"OverrideCachePath": null,
+		"DirBrowser": false,
+		"LocalHostName": "localhost",
 		"LocalPort": 8080,
 		"Protocol": "http",
 		"StoreCache": false,
 		"ServeCache": true
 	},
 	"Bouncer": {
+		"Enabled": true,
 		"RemoteHostname": "resources.oldtanksonline.ru",
 		"RemotePort": 443,
 		"Protocol": "https"
