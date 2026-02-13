@@ -8,8 +8,7 @@
 		"StaticFiles": [
 			"/Prelauncher.swf",
 			"/Loader.swf",
-			"/socket_test.cfg",
-			"/favicon.ico"
+			"/socket_test.cfg"
 		],
 		"OverrideCachePath": null,
 		"DirBrowser": false,
