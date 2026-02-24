@@ -1,7 +1,7 @@
 Hello! This guide shows you how you can get 2012-2013 textures in OldTanks!
 
 **It is recommended that you back up your `C:\Games\OldTanks Online` folder before modifying anything.**
-**Also remember to clear the cache (`clear_cache.bat`) before starting up the game to apply new textures!**
+**Also remember to clear the cache (`clear-cache.bat`) before starting up the game to apply new textures!**
 **You can launch the game normally by reverting `C:\Games\OldTanks Online\META-INF\AIR\application.xml`**.
 
 Copy the `OldTanks Online` folder from here into `C:\Games\`.
