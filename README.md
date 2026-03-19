@@ -11,7 +11,7 @@ You can change this in the included modified `META-INF\AIR\application.xml` (def
 Download & extract my [NNBounce-node](https://github.com/networkpenetrationtester/NNBounce-node) Resource Proxy Server.
 It's a TypeScript HTTP proxy, which can either load resources from your disk, or from a URL you specify in `config.json`. (Or do both with a cache)
 
-*Only 1 person in a house needs the server if multiple are playing. You could save other people the hassle by hosting one instance and port forwarding it.*
+*Only 1 person in a house/group needs the server if multiple are playing. You could save other people the hassle by hosting one instance and port forwarding it.*
 
 Merge the `NNBounce-node-master` folder from here into your downloaded copy of `NNBounce-node` (folder name will be `NNBounce-node-master` after downloading).
 You need all of those modified game files to load textures, and the modified game won't launch without the NNBounce server.
