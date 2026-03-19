@@ -7,7 +7,7 @@
 	<versionNumber>1.2</versionNumber>
 	<initialWindow>
 		<title>OldTanks Online</title>
-		<content>StandaloneLoader.swf?prelauncher=http://localhost:8080/Prelauncher.swf</content>
+		<content>StandaloneLoader.swf?resources=http://localhost:8080</content>
 		<visible>true</visible>
 		<renderMode>direct</renderMode>
 		<maximizable>false</maximizable>
