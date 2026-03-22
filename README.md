@@ -9,16 +9,16 @@ It contains a modified `StandaloneLoader.swf` (derived from [bjuonday](https://g
 It also contains the `Prelauncher.swf` and `Loader.swf` files, which are required for this specific version of mod.
 You can change this in the included modified `META-INF\AIR\application.xml`.
 
-TWO METHODS OF LOADING RESOURCES:
+# TWO METHODS OF LOADING RESOURCES:
 
-1. Easy, remotely hosted, using override for `Prelauncher.swf`, `Loader.swf`, and using [bjuonday's otgithub mod](https://github.com/bjuonday/otgithub) resource webserver.
+## 1. Easy, remotely hosted, using override for `Prelauncher.swf`, `Loader.swf`, and using [bjuonday's otgithub mod](https://github.com/bjuonday/otgithub) resource webserver.
 
 Edit the `<content>` line of `C:\Games\OldTanks Online\META-INF\AIR\application.xml`,
 ```xml
 <content>StandaloneLoader.swf?prelauncher=C:\Games\OldTanks Online\Prelauncher.swf&loader=C:\Games\OldTanks Online\Loader.swf&resources=https://bjuonday.github.io/otgithub/resources/</content>
 ```
 
-2. Difficult, but locally hosted. (customizable, faster load time, saves bandwidth)
+## 2. Difficult, but locally hosted. (customizable, faster load time, saves bandwidth)
 Download & extract my [NNBounce-node](https://github.com/networkpenetrationtester/NNBounce-node) Resource Proxy Server.
 It's a TypeScript HTTP proxy, which can either load resources from your disk, or from a URL you specify in `config.json`. (Or do both with a cache)
 
@@ -42,4 +42,4 @@ Edit the `<content>` line of `C:\Games\OldTanks Online\META-INF\AIR\application.
 
 Run `start-server.sh` or `start-server.bat` in `NNBounce-node` directory to start resource server.
 
-You're all done! Now simply start the game and immerse yourself in 2014 nostolgia.
+## You're all done! Now simply start the game and immerse yourself in 2014 nostolgia.
