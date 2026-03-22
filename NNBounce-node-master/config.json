@@ -5,11 +5,6 @@
 		"LogFile": false
 	},
 	"HttpServer": {
-		"StaticFiles": [
-			"/Prelauncher.swf",
-			"/Loader.swf",
-			"/socket_test.cfg"
-		],
 		"OverrideCachePath": null,
 		"DirBrowser": false,
 		"LocalHostName": "localhost",

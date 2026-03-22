@@ -7,7 +7,7 @@
 	<versionNumber>1.2</versionNumber>
 	<initialWindow>
 		<title>OldTanks Online</title>
-		<content>StandaloneLoader.swf?resources=http://localhost:8080</content>
+		<content>StandaloneLoader.swf?prelauncher=C:\Games\OldTanks Online\Prelauncher.swf&loader=C:\Games\OldTanks Online\Loader.swf&resources=https://github.com/bjuonday/otgithub/raw/refs/heads/main/resourcesmodern/</content>
 		<visible>true</visible>
 		<renderMode>direct</renderMode>
 		<maximizable>false</maximizable>
