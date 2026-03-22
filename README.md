@@ -18,11 +18,7 @@ You can change this in the included modified `META-INF\AIR\application.xml`.
 ## TWO METHODS OF LOADING RESOURCES:
 
 ## 1. Easy, remotely hosted, using override for `Prelauncher.swf`, `Loader.swf`, and using [bjuonday's otgithub mod](https://github.com/bjuonday/otgithub) resource webserver.
-
-Edit the `<content>` line of `C:\Games\OldTanks Online\META-INF\AIR\application.xml`,
-```xml
-<content>StandaloneLoader.swf?prelauncher=C:\Games\OldTanks Online\Prelauncher.swf&loader=C:\Games\OldTanks Online\Loader.swf&resources=https://bjuonday.github.io/otgithub/resources/</content>
-```
+Do nothing. This is installed by default!
 
 ## 2. Difficult, but locally hosted. (customizable, faster load time, saves bandwidth)
 Download & extract my [NNBounce-node](https://github.com/networkpenetrationtester/NNBounce-node) Resource Proxy Server.
@@ -42,7 +38,7 @@ Example: `"OverrideCachePath": "C:\Users\<Your Computer Username Here>\Downloads
 
 Edit the `<content>` line of `C:\Games\OldTanks Online\META-INF\AIR\application.xml`,
 ```xml
-<content>StandaloneLoader.swf?prelauncher=http://localhost:8080/Prelauncher.swf&loader=http://localhost:8080/Loader.swf&resources=http://localhost:8080/resources/</content>
+<content>StandaloneLoader.swf?prelauncher=C:\Games\OldTanks Online\Prelauncher.swf&loader=C:\Games\OldTanks Online\Loader.swf&resources=http://localhost:8080/resources/</content>
 ```
 
 Run `start-server.sh` or `start-server.bat` in `NNBounce-node` directory to start resource server.
