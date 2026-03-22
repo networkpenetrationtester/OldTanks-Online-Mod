@@ -1,16 +1,21 @@
 {
 	"Logger": {
 		"Requests": true,
-		"Verbose": true,
+		"Responses": true,
+		"Info": true,
+		"Warn": true,
+		"Error": true,
 		"LogFile": false
 	},
 	"HttpServer": {
-		"OverrideCachePath": null,
-		"DirBrowser": false,
-		"LocalHostName": "localhost",
+		"StaticPaths": [],
+		"OverrideCachePath": "<your path to otgithub folder here>",
+		"DirectoryBrowser": false,
+		"LocalHostName": "0.0.0.0",
 		"LocalPort": 8080,
 		"Protocol": "http",
-		"StoreCache": false,
+		"WriteCache": false,
+		"RewriteCache": false,
 		"ServeCache": true
 	},
 	"Bouncer": {
