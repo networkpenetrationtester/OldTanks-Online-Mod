@@ -9,18 +9,21 @@ It contains a modified `StandaloneLoader.swf` (derived from [bjuonday](https://g
 It also contains the `Prelauncher.swf` and `Loader.swf` files, which are required for this specific version of mod.
 You can change this in the included modified `META-INF\AIR\application.xml`.
 
-TWO METHODS:
+TWO METHODS OF LOADING RESOURCES:
 
-1. Remotely hosted, using override for `Prelauncher.swf` and `Loader.swf`, and use [bjuonday's otgithub mod](https://github.com/bjuonday/otgithub) Resource server.
+1. Easy, remotely hosted, using override for `Prelauncher.swf`, `Loader.swf`, and using [bjuonday's otgithub mod](https://github.com/bjuonday/otgithub) resource webserver.
 
 Edit the <content> line of `C:\Games\OldTanks Online\META-INF\AIR\application.xml`,
+```xml
+<content>StandaloneLoader.swf?prelauncher=C:\Games\OldTanks Online\Prelauncher.swf&loader=C:\Games\OldTanks Online\Loader.swf&resources=https://bjuonday.github.io/otgithub/resources/</content>
+```
 
-
-2. Locally hosted (customizable, faster load time, save bandwidth)
+2. Difficult, but locally hosted. (customizable, faster load time, saves bandwidth)
 Download & extract my [NNBounce-node](https://github.com/networkpenetrationtester/NNBounce-node) Resource Proxy Server.
 It's a TypeScript HTTP proxy, which can either load resources from your disk, or from a URL you specify in `config.json`. (Or do both with a cache)
 
-*Only 1 person in a house/group needs the server if multiple are playing. You could save other people the hassle by hosting one instance and port forwarding it.*
+*Only 1 person in a house/group needs the server if multiple are playing.*
+*You could save other people the hassle by hosting one instance and port forwarding it.*
 
 Merge the `NNBounce-node-master` folder from here into your downloaded copy of `NNBounce-node` (folder name will be `NNBounce-node-master` after downloading).
 You need all of those modified game files to load textures, and the modified game won't launch without the NNBounce server.
@@ -33,8 +36,10 @@ In the NNBounce-node-master folder, open `config.json` with your favorite text e
 Example: `"OverrideCachePath": "C:\Users\<Your Computer Username Here>\Downloads\otgithub-main"`
 
 Edit the <content> line of `C:\Games\OldTanks Online\META-INF\AIR\application.xml`,
+```xml
+<content>StandaloneLoader.swf?prelauncher=http://localhost:8080/Prelauncher.swf&loader=http://localhost:8080/Loader.swf&resources=http://localhost:8080/resources/</content>
+```
 
-Run `start-server.sh` or `start-server.bat` to start resource server.
-
+Run `start-server.sh` or `start-server.bat` in `NNBounce-node` directory to start resource server.
 
 You're all done! Now simply start the game and immerse yourself in 2014 nostolgia.
