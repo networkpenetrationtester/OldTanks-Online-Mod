@@ -2,14 +2,20 @@ Hello! This guide shows you how you can get 2012-2013 textures in OldTanks!
 
 **It is recommended that you back up your `C:\Games\OldTanks Online` folder before modifying anything.**
 **Also remember to clear the cache (`clear-cache.bat`) before starting up the game to apply new textures!**
-**You can launch the game normally by reverting `C:\Games\OldTanks Online\META-INF\AIR\application.xml`**.
+**You can launch the game normally by reverting `C:\Games\OldTanks Online\META-INF\AIR\application.xml`.**
+**Simply set the `<content>` line to:**
+```xml
+<content>StandaloneLoader.swf</content>
+```
+
+## MOD INSTALLATION:
 
 Copy the `OldTanks Online` folder from here into `C:\Games\`.
 It contains a modified `StandaloneLoader.swf` (derived from [bjuonday](https://github.com/bjuonday)) which can be configured to override the server used for resources.
 It also contains the `Prelauncher.swf` and `Loader.swf` files, which are required for this specific version of mod.
 You can change this in the included modified `META-INF\AIR\application.xml`.
 
-# TWO METHODS OF LOADING RESOURCES:
+## TWO METHODS OF LOADING RESOURCES:
 
 ## 1. Easy, remotely hosted, using override for `Prelauncher.swf`, `Loader.swf`, and using [bjuonday's otgithub mod](https://github.com/bjuonday/otgithub) resource webserver.
 
