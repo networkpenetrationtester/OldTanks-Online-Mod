@@ -33,7 +33,6 @@ It's a TypeScript HTTP proxy, which can either load resources from your disk, or
 
 Merge the `NNBounce-node-master` folder from here into your downloaded copy of `NNBounce-node` (folder name will be `NNBounce-node-master` after downloading).
 You need all of those modified game files to load textures, and the modified game won't launch without the NNBounce server.
-I have created a script to start the game and server in one simple click. :)
 
 Download & extract [bjuonday's otgithub mod](https://github.com/bjuonday/otgithub).
 This repo is a fork of tdlcompiler's otgithub, except with modern textures. We will only be using the `resources` folder.
