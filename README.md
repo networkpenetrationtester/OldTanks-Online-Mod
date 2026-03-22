@@ -44,3 +44,7 @@ Edit the `<content>` line of `C:\Games\OldTanks Online\META-INF\AIR\application.
 Run `start-server.sh` or `start-server.bat` in `NNBounce-node` directory to start resource server.
 
 ## You're all done! Now simply start the game and immerse yourself in 2014 nostolgia.
+
+## Additional Instructions
+
+I have included another smaller project, "Cache Searcher", which can be used in the terminal to search for resource names. It presents their encoded filenames to you in human-readable form, for easy on-the-fly asset replacing.
