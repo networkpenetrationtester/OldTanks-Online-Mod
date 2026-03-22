@@ -13,7 +13,7 @@ TWO METHODS OF LOADING RESOURCES:
 
 1. Easy, remotely hosted, using override for `Prelauncher.swf`, `Loader.swf`, and using [bjuonday's otgithub mod](https://github.com/bjuonday/otgithub) resource webserver.
 
-Edit the <content> line of `C:\Games\OldTanks Online\META-INF\AIR\application.xml`,
+Edit the `<content>` line of `C:\Games\OldTanks Online\META-INF\AIR\application.xml`,
 ```xml
 <content>StandaloneLoader.swf?prelauncher=C:\Games\OldTanks Online\Prelauncher.swf&loader=C:\Games\OldTanks Online\Loader.swf&resources=https://bjuonday.github.io/otgithub/resources/</content>
 ```
@@ -35,7 +35,7 @@ This repo is a fork of tdlcompiler's otgithub, except with modern textures. We w
 In the NNBounce-node-master folder, open `config.json` with your favorite text editor, and set the `HttpServer.OverrideCachePath` field to the path of [bjuonday](https://github.com/bjuonday)'s `otgithub-main` folder you downloaded.
 Example: `"OverrideCachePath": "C:\Users\<Your Computer Username Here>\Downloads\otgithub-main"`
 
-Edit the <content> line of `C:\Games\OldTanks Online\META-INF\AIR\application.xml`,
+Edit the `<content>` line of `C:\Games\OldTanks Online\META-INF\AIR\application.xml`,
 ```xml
 <content>StandaloneLoader.swf?prelauncher=http://localhost:8080/Prelauncher.swf&loader=http://localhost:8080/Loader.swf&resources=http://localhost:8080/resources/</content>
 ```
