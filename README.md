@@ -11,7 +11,7 @@ Hello! This guide shows you how you can get 2012-2013 textures in OldTanks!
 ## MOD INSTALLATION:
 
 Copy the `OldTanks Online` folder from here into `C:\Games\`.
-It contains a modified `StandaloneLoader.swf` (derived from [bjuonday](https://github.com/bjuonday)) which can be configured to override the server used for resources.
+It contains a modified `StandaloneLoader.swf` (derived from [bjuonday](https://github.com/bjuonday)) which I have modified to allow users to override the config values for resources, prelauncher, and loader.
 It also contains the `Prelauncher.swf` and `Loader.swf` files, which are required for this specific version of mod.
 You can change this in the included modified `META-INF\AIR\application.xml`.
 
