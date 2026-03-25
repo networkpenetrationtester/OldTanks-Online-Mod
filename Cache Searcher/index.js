@@ -8,8 +8,10 @@ const DEBUG = false;
 const CACHE_REL_PATH = path.join('AppData', 'Roaming', 'OldTanksOnline.Client.Standalone', 'Local Store', 'cache');
 const CACHE_ABS_PATH = {
     'win32': path.join(os.homedir(), CACHE_REL_PATH),
-    'linux': path.join(os.homedir(), '.wine', 'drive_c', 'Users', os.userInfo().username, CACHE_REL_PATH)
+    'linux': path.join(os.homedir(), '.wine', 'drive_c', 'users', os.userInfo().username, CACHE_REL_PATH)
 }[os.platform()] ?? '';
+
+console.log(CACHE_ABS_PATH);
 
 if (!CACHE_ABS_PATH) throw new Error('Ts not supported cuh 😭🙏')
 
